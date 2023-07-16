@@ -5,6 +5,8 @@ import com.qa.automation.ui.base.Base;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.automation.ui.base.TestBase;
+import com.qa.automation.ui.pages.CartPage;
+import com.qa.automation.ui.pages.HomePage;
 import com.qa.automation.ui.pages.LoginPage;
 import com.qa.automation.ui.services.Services;
 
@@ -33,6 +35,8 @@ public class TestContext {
     public Utils utils =null;
 
     public LoginPage loginPage;
+    public HomePage homePage;
+    public CartPage cartPage;
 
     
     
